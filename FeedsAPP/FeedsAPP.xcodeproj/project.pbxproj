@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3F663F228700DA00087C6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F663E228700DA00087C6C /* AppDelegate.m */; };
+		CF3F6642228700DA00087C6C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F6641228700DA00087C6C /* FirstViewController.m */; };
+		CF3F6645228700DA00087C6C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F6644228700DA00087C6C /* SecondViewController.m */; };
+		CF3F6648228700DA00087C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3F6646228700DA00087C6C /* Main.storyboard */; };
+		CF3F664A228700DB00087C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3F6649228700DB00087C6C /* Assets.xcassets */; };
+		CF3F664D228700DB00087C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3F664B228700DB00087C6C /* LaunchScreen.storyboard */; };
+		CF3F6650228700DB00087C6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F664F228700DB00087C6C /* main.m */; };
+		CF3F665A228700DB00087C6C /* FeedsAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F6659228700DB00087C6C /* FeedsAPPTests.m */; };
+		CF3F6665228700DB00087C6C /* FeedsAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F6664228700DB00087C6C /* FeedsAPPUITests.m */; };
+		CF3F667C228703A200087C6C /* MultiTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3F667B228703A200087C6C /* MultiTabCell.xib */; };
+		CF3F667F2287042100087C6C /* MultiTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F667E2287042100087C6C /* MultiTabCell.m */; };
+		CF3F6682228704DA00087C6C /* MultiTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F6681228704DA00087C6C /* MultiTabView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3F6656228700DB00087C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3F6632228700DA00087C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3F6639228700DA00087C6C;
+			remoteInfo = FeedsAPP;
+		};
+		CF3F6661228700DB00087C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3F6632228700DA00087C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3F6639228700DA00087C6C;
+			remoteInfo = FeedsAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF3F663A228700DA00087C6C /* FeedsAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedsAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3F663D228700DA00087C6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF3F663E228700DA00087C6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF3F6640228700DA00087C6C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CF3F6641228700DA00087C6C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CF3F6643228700DA00087C6C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CF3F6644228700DA00087C6C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CF3F6647228700DA00087C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3F6649228700DB00087C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3F664C228700DB00087C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3F664E228700DB00087C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3F664F228700DB00087C6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF3F6655228700DB00087C6C /* FeedsAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedsAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3F6659228700DB00087C6C /* FeedsAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedsAPPTests.m; sourceTree = "<group>"; };
+		CF3F665B228700DB00087C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3F6660228700DB00087C6C /* FeedsAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedsAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3F6664228700DB00087C6C /* FeedsAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedsAPPUITests.m; sourceTree = "<group>"; };
+		CF3F6666228700DB00087C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3F667B228703A200087C6C /* MultiTabCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiTabCell.xib; sourceTree = "<group>"; };
+		CF3F667D2287042100087C6C /* MultiTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTabCell.h; sourceTree = "<group>"; };
+		CF3F667E2287042100087C6C /* MultiTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTabCell.m; sourceTree = "<group>"; };
+		CF3F6680228704DA00087C6C /* MultiTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTabView.h; sourceTree = "<group>"; };
+		CF3F6681228704DA00087C6C /* MultiTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTabView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3F6637228700DA00087C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F6652228700DB00087C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F665D228700DB00087C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3F6631228700DA00087C6C = {
+			isa = PBXGroup;
+			children = (
+				CF3F663C228700DA00087C6C /* FeedsAPP */,
+				CF3F6658228700DB00087C6C /* FeedsAPPTests */,
+				CF3F6663228700DB00087C6C /* FeedsAPPUITests */,
+				CF3F663B228700DA00087C6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3F663B228700DA00087C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F663A228700DA00087C6C /* FeedsAPP.app */,
+				CF3F6655228700DB00087C6C /* FeedsAPPTests.xctest */,
+				CF3F6660228700DB00087C6C /* FeedsAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3F663C228700DA00087C6C /* FeedsAPP */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F6672228700E600087C6C /* MultiTab */,
+				CF3F663D228700DA00087C6C /* AppDelegate.h */,
+				CF3F663E228700DA00087C6C /* AppDelegate.m */,
+				CF3F6640228700DA00087C6C /* FirstViewController.h */,
+				CF3F6641228700DA00087C6C /* FirstViewController.m */,
+				CF3F6643228700DA00087C6C /* SecondViewController.h */,
+				CF3F6644228700DA00087C6C /* SecondViewController.m */,
+				CF3F6646228700DA00087C6C /* Main.storyboard */,
+				CF3F6649228700DB00087C6C /* Assets.xcassets */,
+				CF3F664B228700DB00087C6C /* LaunchScreen.storyboard */,
+				CF3F664E228700DB00087C6C /* Info.plist */,
+				CF3F664F228700DB00087C6C /* main.m */,
+			);
+			path = FeedsAPP;
+			sourceTree = "<group>";
+		};
+		CF3F6658228700DB00087C6C /* FeedsAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F6659228700DB00087C6C /* FeedsAPPTests.m */,
+				CF3F665B228700DB00087C6C /* Info.plist */,
+			);
+			path = FeedsAPPTests;
+			sourceTree = "<group>";
+		};
+		CF3F6663228700DB00087C6C /* FeedsAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F6664228700DB00087C6C /* FeedsAPPUITests.m */,
+				CF3F6666228700DB00087C6C /* Info.plist */,
+			);
+			path = FeedsAPPUITests;
+			sourceTree = "<group>";
+		};
+		CF3F6672228700E600087C6C /* MultiTab */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F667B228703A200087C6C /* MultiTabCell.xib */,
+				CF3F667D2287042100087C6C /* MultiTabCell.h */,
+				CF3F667E2287042100087C6C /* MultiTabCell.m */,
+				CF3F6680228704DA00087C6C /* MultiTabView.h */,
+				CF3F6681228704DA00087C6C /* MultiTabView.m */,
+			);
+			path = MultiTab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3F6639228700DA00087C6C /* FeedsAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3F6669228700DB00087C6C /* Build configuration list for PBXNativeTarget "FeedsAPP" */;
+			buildPhases = (
+				CF3F6636228700DA00087C6C /* Sources */,
+				CF3F6637228700DA00087C6C /* Frameworks */,
+				CF3F6638228700DA00087C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeedsAPP;
+			productName = FeedsAPP;
+			productReference = CF3F663A228700DA00087C6C /* FeedsAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3F6654228700DB00087C6C /* FeedsAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3F666C228700DB00087C6C /* Build configuration list for PBXNativeTarget "FeedsAPPTests" */;
+			buildPhases = (
+				CF3F6651228700DB00087C6C /* Sources */,
+				CF3F6652228700DB00087C6C /* Frameworks */,
+				CF3F6653228700DB00087C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3F6657228700DB00087C6C /* PBXTargetDependency */,
+			);
+			name = FeedsAPPTests;
+			productName = FeedsAPPTests;
+			productReference = CF3F6655228700DB00087C6C /* FeedsAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF3F665F228700DB00087C6C /* FeedsAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3F666F228700DB00087C6C /* Build configuration list for PBXNativeTarget "FeedsAPPUITests" */;
+			buildPhases = (
+				CF3F665C228700DB00087C6C /* Sources */,
+				CF3F665D228700DB00087C6C /* Frameworks */,
+				CF3F665E228700DB00087C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3F6662228700DB00087C6C /* PBXTargetDependency */,
+			);
+			name = FeedsAPPUITests;
+			productName = FeedsAPPUITests;
+			productReference = CF3F6660228700DB00087C6C /* FeedsAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3F6632228700DA00087C6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = iosGroup;
+				TargetAttributes = {
+					CF3F6639228700DA00087C6C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CF3F6654228700DB00087C6C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CF3F6639228700DA00087C6C;
+					};
+					CF3F665F228700DB00087C6C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CF3F6639228700DA00087C6C;
+					};
+				};
+			};
+			buildConfigurationList = CF3F6635228700DA00087C6C /* Build configuration list for PBXProject "FeedsAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3F6631228700DA00087C6C;
+			productRefGroup = CF3F663B228700DA00087C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3F6639228700DA00087C6C /* FeedsAPP */,
+				CF3F6654228700DB00087C6C /* FeedsAPPTests */,
+				CF3F665F228700DB00087C6C /* FeedsAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3F6638228700DA00087C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F664D228700DB00087C6C /* LaunchScreen.storyboard in Resources */,
+				CF3F664A228700DB00087C6C /* Assets.xcassets in Resources */,
+				CF3F6648228700DA00087C6C /* Main.storyboard in Resources */,
+				CF3F667C228703A200087C6C /* MultiTabCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F6653228700DB00087C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F665E228700DB00087C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3F6636228700DA00087C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F6645228700DA00087C6C /* SecondViewController.m in Sources */,
+				CF3F663F228700DA00087C6C /* AppDelegate.m in Sources */,
+				CF3F6682228704DA00087C6C /* MultiTabView.m in Sources */,
+				CF3F667F2287042100087C6C /* MultiTabCell.m in Sources */,
+				CF3F6650228700DB00087C6C /* main.m in Sources */,
+				CF3F6642228700DA00087C6C /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F6651228700DB00087C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F665A228700DB00087C6C /* FeedsAPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F665C228700DB00087C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F6665228700DB00087C6C /* FeedsAPPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3F6657228700DB00087C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3F6639228700DA00087C6C /* FeedsAPP */;
+			targetProxy = CF3F6656228700DB00087C6C /* PBXContainerItemProxy */;
+		};
+		CF3F6662228700DB00087C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3F6639228700DA00087C6C /* FeedsAPP */;
+			targetProxy = CF3F6661228700DB00087C6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF3F6646228700DA00087C6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3F6647228700DA00087C6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3F664B228700DB00087C6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3F664C228700DB00087C6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3F6667228700DB00087C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF3F6668228700DB00087C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3F666A228700DB00087C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeedsAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosGroup.FeedsAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3F666B228700DB00087C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeedsAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosGroup.FeedsAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF3F666D228700DB00087C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeedsAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosGroup.FeedsAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedsAPP.app/FeedsAPP";
+			};
+			name = Debug;
+		};
+		CF3F666E228700DB00087C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeedsAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosGroup.FeedsAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedsAPP.app/FeedsAPP";
+			};
+			name = Release;
+		};
+		CF3F6670228700DB00087C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeedsAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosGroup.FeedsAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FeedsAPP;
+			};
+			name = Debug;
+		};
+		CF3F6671228700DB00087C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeedsAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosGroup.FeedsAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FeedsAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3F6635228700DA00087C6C /* Build configuration list for PBXProject "FeedsAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3F6667228700DB00087C6C /* Debug */,
+				CF3F6668228700DB00087C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3F6669228700DB00087C6C /* Build configuration list for PBXNativeTarget "FeedsAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3F666A228700DB00087C6C /* Debug */,
+				CF3F666B228700DB00087C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3F666C228700DB00087C6C /* Build configuration list for PBXNativeTarget "FeedsAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3F666D228700DB00087C6C /* Debug */,
+				CF3F666E228700DB00087C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3F666F228700DB00087C6C /* Build configuration list for PBXNativeTarget "FeedsAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3F6670228700DB00087C6C /* Debug */,
+				CF3F6671228700DB00087C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3F6632228700DA00087C6C /* Project object */;
+}
